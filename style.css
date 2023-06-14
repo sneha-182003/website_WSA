@@ -1,0 +1,677 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .head{
+    position:absolute;
+    width: 1518px;
+    height: 30px;
+    top: 0%;
+    padding-left: 0%;
+    background: #F7A367;
+  }
+
+  #text1{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #FFFDFD;
+  }
+
+  #text2{
+    padding-top: 30px;
+    padding-left: 900px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #FFFDFD;
+
+  }
+
+  p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #FFFDFD;
+
+  }
+  
+  header {
+    width: auto;
+    height: 138px;
+    left: 0px;
+    padding-left: 0%;
+    padding-top: 30px;
+    
+
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding-left: 850px;
+    padding-top: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    padding-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #5F9257;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover{
+    color:#365a31 ;}
+  
+  .content {
+    margin: 20px;
+  }
+
+  h1{
+    position: absolute;
+    width: 730px;
+    height: 204px;
+    left: 650px;
+    top: 275px;
+    
+    padding-top: 25px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 50px;
+
+    color: #227614;
+
+  }
+
+  #subhero{
+    position: absolute;
+    width: 841px;
+    height: 148px;
+    left: 650px;
+    top: 475px;
+
+    font-family: 'Outfit';
+    font-style:normal;
+    font-weight:bolder;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: rgba(7, 7, 7, 0.47);
+
+  }
+
+  #learn{
+    position: absolute;
+    margin-left: 635px;
+    margin-top: 480px;
+    padding: 10px;
+    width: 100px;
+    height: 25px;
+    background-color:  #619f57;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    top:100px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  #learn:hover{
+    background-color:  #38772f;
+    color:white;
+  }
+  
+
+  .logo { 
+    width:30px;
+    height: 30px;
+    padding-left: 5px;
+    top: 0%;
+
+    
+    background: url(1587472542667logo.png);
+    border-radius: 10px;
+    
+  }
+
+  .footer-content{
+
+    position: absolute;
+    width: 1518px;
+    height: 280px;
+    left: 1px;
+    top: 1300px;
+
+    background: #F7A367;
+  }
+
+  #footer1{
+    position: absolute;
+    padding-left: 50px;
+    bottom:165px;
+  }
+
+  #footer2{
+    position: absolute;
+    bottom: 90px;
+    margin-left: 900px;
+  }
+
+  #footer3{
+    position: absolute;
+    padding-left: 450px;
+    text-align: center;
+    bottom:0px;
+  }
+
+  #image1{
+    position: absolute;
+    padding-top: 250px;
+    padding-left: 120px;
+    width: 409px;
+    height: 408px;
+
+  }
+
+  .content1{
+    margin: 20px;
+    padding-top: 550px;
+  }
+
+  #founder{
+    padding-left: 50px;
+    font-family: 'Outfit';
+    font-weight: bold;
+    color:#227614;
+    font-size: x-large;
+  }
+
+  #image2{
+    position: absolute;
+    
+    padding-left: 110px;
+    width: 1300px;
+    height: 500px;
+  }
+
+
+  .footer-content1{
+    position: absolute;
+    width: 1518px;
+    height: 280px;
+    left: 1px;
+    top: 2200px;
+
+    background: #F7A367;
+  }
+
+  #footer4{
+    position: absolute;
+    padding-left: 40px;
+    bottom:160px;
+  }
+
+  #footer5{
+    position: absolute;
+    bottom: 90px;
+    margin-left: 890px;
+  }
+
+  #subhero1{
+    color: black;
+    padding-left: 50px;
+    text-align: left;
+    font-family: 'Outfit';
+    font-size:larger;
+    font-weight: 545;
+    padding-right: 50px;
+  }
+
+  #started{
+    font-family: 'Outfit';
+    font-weight:bold;
+    color:#227614;
+    font-size: x-large;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+  #subhero2{
+    color: black;
+    padding-left: 50px;
+    text-align: left;
+    font-family: 'Outfit';
+    font-size:larger;
+    font-weight: 545;
+    padding-right: 50px;
+  }
+
+  #subhero3{
+    color: black;
+    padding-left: 50px;
+    text-align: left;
+    font-family: 'Outfit';
+    font-size:larger;
+    font-weight: 545;
+    padding-right: 50px;
+  }
+
+  #founderimg{
+    padding-left: 50px;
+    width: 10%;
+  }
+
+  .volunteers{
+    padding-top: 20px;
+  }
+
+  #v1{
+    color: black;
+    padding-left: 220px;
+    text-align: left;
+    font-family: 'Outfit';
+    font-size:larger;
+    font-weight: 545;
+    padding-right: 50px;
+  }
+
+  #imagev1{
+    top:1600px;
+    position: absolute;
+    width: 8%;
+    padding-left: 50px;
+  }
+
+  #v2{
+    color: black;
+    padding-left: 220px;
+    text-align: left;
+    font-family: 'Outfit';
+    font-size:larger;
+    font-weight: 545;
+    padding-right: 50px;
+    padding-top: 50px; 
+  }
+
+  #imagev2{
+    top:1870px;
+    position: absolute;
+    width: 8%;
+    padding-left: 50px;
+  }
+
+  #volunteer{
+    margin-left: 625px;
+    padding: 20px;
+    width: 450px;
+    height: 80px;
+    background-color:  #619f57;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    top:100px;
+    text-decoration: none;
+  }
+
+  #volunteer:hover{
+    background-color:  #38772f;
+    color:white;
+  }
+
+  #vform{
+    color:#227614;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  #services{
+    font-family: 'Outfit';
+    font-weight:bold;
+    color:#227614;
+    font-size: x-large;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+  #subhero4{
+    color: black;
+    padding-left: 50px;
+    text-align: left;
+    font-family: 'Outfit';
+    font-size:larger;
+    font-weight: 545;
+    padding-right: 50px;
+  }
+
+  #list{
+    padding-left: 70px;
+  }
+  
+  #list li{
+    font-family: 'Outfit';
+    font-size:larger ;
+  }
+
+  #servicesimg{
+    padding-left: 250px;
+    padding-top: 50px;
+    width: 1000px;
+    height: 500px;
+  }
+
+  #li1{
+    font-family: 'Outfit';
+    font-weight:bold;
+    color:#227614;
+    font-size: x-large;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+  #photos{
+    font-family: 'Outfit';
+    font-weight:bold;
+    color:#227614;
+    font-size:xx-large;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  #img1{
+    padding-left: 150px;
+    padding-top: 50px;
+    width:300px;
+    height: 300px;
+  }
+
+  #videos{
+    font-family: 'Outfit';
+    font-weight:bold;
+    color:#227614;
+    font-size:xx-large;
+    text-align: center;
+    padding-top: 150px;
+  }
+  
+  .footer-content2{
+    position: absolute;
+    width: 1518px;
+    height: 280px;
+    left: 1px;
+    top: 2500px;
+
+    background: #F7A367;
+  }
+
+  #frame1{
+    padding-left: 135px;
+    padding-top: 70px;
+  }
+
+  #quote{
+    font-family: 'Outfit';
+    font-weight:bold;
+    color:#227614;
+    font-size:xx-large;
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  
+  #donatelist{
+    padding-top: 100px;
+    padding-left: 100px;
+    font-family: 'Outfit';
+    font-size: x-large;
+    font-weight: bold;
+    color:#227614;
+  }
+  
+  #descp{
+    color: black;
+    padding-left: 100px;
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size:x-large;
+    padding-right: 80px;
+    padding-bottom:85px ;
+  }
+
+  .footer-content3{
+    position: absolute;
+    width: 1518px;
+    height: 280px;
+    left: 1px;
+    top: 4000px;
+
+    background: #F7A367;
+  }
+
+  #jpg{
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    padding-left:100px;
+    padding-top: 10px;
+   }
+
+  #jpg1{
+    width: 190px;
+    height: 190px;
+    border-radius: 30px;
+    padding-left:80px;
+    top: 600px;
+  }
+
+  #donatenow{
+    margin-left: 670px;
+    padding: 20px;
+    width: 450px;
+    height: 80px;
+    background-color:  #619f57;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    top:100px;
+    text-decoration: none;
+  }
+
+  #donatenow:hover{
+    background-color:  #38772f;
+    color: white;
+  }
+
+  h3{
+    color:rgb(59, 59, 169);
+    font-family: 'Outfit';
+    font-weight:bold;
+    font-size:xx-large;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  #sbi{
+    width:350px;
+    height: 100px;
+    padding-left: 570px;
+  }
+
+  #para{
+    color:rgb(59, 59, 169);
+    font-family: 'Outfit';
+    font-weight:bold;
+    padding-left: 300px;
+    padding-top: 90px;
+    font-size: x-large;
+  }
+
+  #details{
+    position: absolute;
+    width:300px;
+    height: 300px;
+    padding-left: 900px;
+    top:400px;
+  }
+
+  #qrcode{
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 400px;
+    width:700px;
+    height: 900px;
+  }
+
+  #mail{
+    font-family: 'Outfit';
+    font-weight:bold;
+    color:#227614;
+    font-size:xx-large;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .container {
+    position: absolute;
+    width: 300px;
+    padding-top: 50px;
+    padding-left: 250px;
+    font-family: 'Outfit';
+    color:black;
+    font-size: large;
+    font-weight: 500;
+  }
+  
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    font-weight:500;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 125px;
+    color:white;
+    background-color: #5F9257;
+    font-size: large;
+  }
+
+  #add{
+    position: absolute;
+    color: rgb(24, 23, 23);
+    padding-left: 850px;
+    padding-top: 150px;
+    font-family: 'Outfit';
+    font-weight: 500;
+  }
+
+  #phone{
+    position: absolute;
+    color: rgb(24, 23, 23);
+    padding-left: 850px;
+    padding-top: 100px;
+    font-family: 'Outfit';
+    font-weight: 500;
+    padding-top: 300px;
+  }
+
+  #mails{
+    position: absolute;
+    color: rgb(24, 23, 23);
+    padding-left: 850px;
+    padding-top: 100px;
+    font-family: 'Outfit';
+    font-weight: 500;
+    padding-top: 400px;
+  }
+
+  #maps{
+    position: absolute;
+    padding-top: 700px;
+    padding-left: 330px;
+  }
+  
+  .footer-content4{
+    position: absolute;
+    width: 1518px;
+    height: 280px;
+    left: 1px;
+    top: 1600px;
+
+    background: #F7A367;
+  }
+
+  #icon{
+    width:25px;
+    height: 25px;
+    padding-top: 2px;
+    padding-left: 3px;
+  }
+
+  #frame2{
+    padding-left: 450px;
+    padding-top: 650px;
+  }
